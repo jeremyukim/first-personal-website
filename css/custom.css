@@ -1,5 +1,5 @@
 html {
-  background: url(../img/torontosunset.jpg) no-repeat center center fixed; 
+  background: url(../img/torontosunset1.png) no-repeat center center fixed; 
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
@@ -14,6 +14,16 @@ html {
     min-width: 25%;
     min-height: 25%;
 }
+
+a {
+ color: inherit; 
+}
+
+a:hover {
+ color: #FFAD33;
+ text-decoration: none;
+}
+
 body{
 	background-color: rgba(255, 255, 255, 0);
 	color: white;
@@ -22,5 +32,19 @@ body{
 }
 
 #name {
-	padding-top: 71vh;
+	padding-top: 72vh;
 }
+
+#navbar {
+	font-family: "Quicksand";
+}
+
+footer {
+	font-size: 10px;
+}
+
+
+
+
+
+
