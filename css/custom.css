@@ -7,6 +7,10 @@ html {
   height: 100%;
 }
 
+.roboto {
+  font-family: "Roboto";
+}
+
 #logo {
   position: absolute;
   max-width: 8%;
@@ -55,6 +59,8 @@ body{
 #navbar {
 	font-family: "Quicksand";
 }
+
+
 
 footer {
 	font-size: 10px;
