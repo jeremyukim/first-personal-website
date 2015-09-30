@@ -12,6 +12,10 @@
 /*=================FONTS==================*/
 .raleway {
 	font-family: "Raleway";
+}
+
+.ralewaybold {
+	font-family: "Raleway";
 	font-weight: 600;
 }
 
@@ -22,7 +26,16 @@
 .roboto {
 	font-family: "Roboto";
 }
+/*==========================================*/
 
+a {
+ color: inherit; 
+}
+
+a:hover {
+	color: #777;
+	text-decoration: none;
+}
 
 #nav {
 	padding-top: 9px;
@@ -47,3 +60,4 @@
     max-width: 60px;
     padding-top: 200px;
 }
+
