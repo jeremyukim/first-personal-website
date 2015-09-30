@@ -1,0 +1,49 @@
+.projects {
+	height: 100vh;
+	background: #eee no-repeat center center fixed; 
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	margin-top: -10px;
+  
+}
+
+/*=================FONTS==================*/
+.raleway {
+	font-family: "Raleway";
+	font-weight: 600;
+}
+
+.montserrat {
+	font-family: "Montserrat";
+}
+
+.roboto {
+	font-family: "Roboto";
+}
+
+
+#nav {
+	padding-top: 9px;
+	text-align: center;
+	background: rgba(255,255,255,0.5);
+	letter-spacing: .2em;
+}
+
+.bigheading {
+	font-size: 15vh;
+	letter-spacing: .1em;
+	text-align: center;
+	color: #111;
+	padding-top: 35vh;
+	max-width: 100%;
+}
+
+#downarrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60px;
+    padding-top: 200px;
+}
