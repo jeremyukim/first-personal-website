@@ -1,12 +1,11 @@
 .projects {
 	height: 100vh;
-	background: #eee no-repeat center center fixed; 
+	background: url(../img/torontorocks.jpg) no-repeat center center; 
 	-webkit-background-size: 100% 100%;
 	-moz-background-size: 100% 100%;
 	-o-background-size: 100% 100%;
 	background-size: 100% 100%;
 	margin-top: -10px;
-  
 }
 
 /*=================FONTS==================*/
@@ -44,12 +43,29 @@ a:hover {
 	letter-spacing: .2em;
 }
 
+#circle {
+    position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+    opacity: 0.2;
+    min-width: 25%;
+    min-height: 25%;
+}
+
+#me {
+    position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+    max-width: 35%;
+    max-height: 35%;	
+}
+
 .bigheading {
-	font-size: 15vh;
+	font-size: 6vh;
 	letter-spacing: .1em;
 	text-align: center;
-	color: #111;
-	padding-top: 35vh;
+	color: #eee;
+	padding-top: 67vh;
 	max-width: 100%;
 }
 
@@ -57,7 +73,13 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 60px;
-    padding-top: 200px;
+    max-width: 45px;
+    padding-top: 30px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.image {
+	padding-top: 20px;
 }
 
