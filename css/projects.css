@@ -57,6 +57,10 @@
 	letter-spacing: 0.25em;
 }
 
+.margin-top {
+	margin-top: 15px;
+}
+
 #circle {
     position: absolute;
     top: 0; bottom:0; left: 0; right:0;
@@ -93,8 +97,23 @@
     filter: invert(1);
 }
 
-.image {
+.main-image {
 	margin-top: 17px;
 	box-shadow: 0px 0px 2px 2px #e3e3e3;
+}
+
+.image {
+	margin-top: 20px;
+	box-shadow: 0px 0px 2px 2px #e3e3e3;
+	height: 15em;
+	width: 25em;
+}
+
+.narrow-image {
+	margin-top: 20px;
+	box-shadow: 0px 0px 2px 2px #e3e3e3;
+	height: 15em;
+	margin-right: auto;
+	margin-left: auto;
 }
 
