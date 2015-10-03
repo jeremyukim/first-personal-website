@@ -107,6 +107,8 @@
 	box-shadow: 0px 0px 2px 2px #e3e3e3;
 	height: 15em;
 	width: 25em;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .narrow-image {
