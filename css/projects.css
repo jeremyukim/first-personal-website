@@ -105,6 +105,7 @@
     animation-duration: 2s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+    animation-iteration-count: 10;
 }
 /*
  * Animation for webkit
@@ -152,3 +153,6 @@
 	margin-left: auto;
 }
 
+@media only screen and (min-device-width: 480px){
+
+}
